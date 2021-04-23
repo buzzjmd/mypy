@@ -48,3 +48,5 @@ As this is a python package get the standard Python `.gitignore` file from [gith
 * [When to use “chore” as type of commit message? | stackoverflow](https://stackoverflow.com/questions/26944762/when-to-use-chore-as-type-of-commit-message)
 * [Karma - Git Commit Msg](http://karma-runner.github.io/0.10/dev/git-commit-msg.html)
 * [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint)
+
+Git Flow
