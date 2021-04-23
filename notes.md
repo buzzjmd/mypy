@@ -50,3 +50,13 @@ As this is a python package get the standard Python `.gitignore` file from [gith
 * [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint)
 
 Git Flow
+
+
+## Create Hello World Package
+
+Create the package and the setup.py then run
+```
+$ pipenv install '-e .'
+$ pipenv run python -m mypy
+$ python -c"import mypy.greet; mypy.greet.hello_world()"
+```
