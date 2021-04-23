@@ -29,3 +29,8 @@ $ git push -u origin main
 ```
 $ git checkout -b dev
 ```
+Work from this dev branch, merging to main branch when appropriate
+
+## Create .gitignore
+
+As this is a python package get the standard Python `.gitignore` file from [github/gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore).
