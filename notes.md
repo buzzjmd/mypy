@@ -49,6 +49,8 @@ As this is a python package get the standard Python `.gitignore` file from [gith
 * [Karma - Git Commit Msg](http://karma-runner.github.io/0.10/dev/git-commit-msg.html)
 * [conventional-changelog/commitlint](https://github.com/conventional-changelog/commitlint)
 
+Information about using pipenv to install packages locally so that they are editable is described in the [pipenv docs here](https://docs.pipenv.org/basics/#editable-dependencies-e-g-e). This is know as 'Editable Dependencies'
+
 Git Flow
 
 
