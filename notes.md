@@ -56,9 +56,9 @@ Git Flow
 
 Create the package and the setup.py then run
 ```
-$ pipenv install '-e .'
+$ pipenv install --dev '-e .'
 $ pipenv run python -m mypy
-$ python -c"import mypy.greet; mypy.greet.hello_world()"
+$ pipenv python -c"import mypy.greet; mypy.greet.hello_world()"
 ```
 
 To remove all artifacts created by pipenv run

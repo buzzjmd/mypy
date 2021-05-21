@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 
 [dev-packages]
+mypy = {editable = true, path = "."}
 
 [requires]
 python_version = "3.9"
