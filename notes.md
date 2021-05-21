@@ -21,7 +21,7 @@ $ git commit -m "initial commit"
 ## Connect local repository to github
 
 ```
-$ git remote add origin https://github.com/buzzjmd/mypy-cli.git
+$ git remote add origin https://github.com/buzzjmd/mypy.git
 $ git push -u origin main
 ```
 
