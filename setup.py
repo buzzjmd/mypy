@@ -1,4 +1,3 @@
-#from distutils.core import setup
 from setuptools import setup, find_packages
 
 setup(name='mypy',
@@ -10,7 +9,6 @@ setup(name='mypy',
       package_dir={'': 'src'},  
       entry_points={
             'console_scripts': [
-                  #'hello = hello.cli:main'
-                  'mypy = mypy.greet:hello_world'
+                  'mypy = mypy.cli:main'
       ]},
 )

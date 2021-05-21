@@ -1,4 +1,5 @@
-from mypy.greet import hello_world
+import sys
+from mypy.cli import main
 
 if __name__ == "__main__":
-    hello_world()
+    sys.exit(main())
