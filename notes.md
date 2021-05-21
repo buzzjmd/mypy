@@ -60,3 +60,9 @@ $ pipenv install '-e .'
 $ pipenv run python -m mypy
 $ python -c"import mypy.greet; mypy.greet.hello_world()"
 ```
+
+To remove all artifacts created by pipenv run
+```
+$ pipenv --rm
+```
+and delete the egg-info in src, and the pip* files and pyproject.toml
