@@ -7,5 +7,10 @@ setup(name='mypy',
       author='buzzjmd',
       author_email='buzzjmd@gmail.com',
       packages=find_packages(where='src'),
-      package_dir={'': 'src'},      
-     )
+      package_dir={'': 'src'},  
+      entry_points={
+            'console_scripts': [
+                  #'hello = hello.cli:main'
+                  'mypy = mypy.greet:hello_world'
+      ]},
+)

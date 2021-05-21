@@ -54,7 +54,23 @@ Git Flow
 
 ## Create Hello World Package
 
-Create the package and the setup.py then run
+Create the package.
+
+Create setup.py for the package
+```
+from setuptools import setup, find_packages
+
+setup(name='mypy',
+      version='0.1.0',
+      description='My Python Library',
+      author='buzzjmd',
+      author_email='buzzjmd@gmail.com',
+      packages=find_packages(where='src'),
+      package_dir={'': 'src'},  
+)
+```
+
+Once setup.py has been created, install the package locally and run it
 ```
 $ pipenv install --dev '-e .'
 $ pipenv run python -m mypy
@@ -66,3 +82,23 @@ To remove all artifacts created by pipenv run
 $ pipenv --rm
 ```
 and delete the egg-info in src, and the files Pipfile, Pipfile.lock and pyproject.toml
+
+
+## Modify the package
+
+When the package is modified it is necessary to rerun
+```
+$ pipenv install --dev '-e .'
+```
+
+
+## Create a runable script
+
+This is done by adding entry points to setup.py
+```
+      entry_points={
+            'console_scripts': [
+                  'mypy = mypy.greet:hello_world'
+      ]},
+``` 
+
