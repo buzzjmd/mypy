@@ -65,4 +65,4 @@ To remove all artifacts created by pipenv run
 ```
 $ pipenv --rm
 ```
-and delete the egg-info in src, and the pip* files and pyproject.toml
+and delete the egg-info in src, and the files Pipfile, Pipfile.lock and pyproject.toml
